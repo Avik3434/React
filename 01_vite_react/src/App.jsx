@@ -1,11 +1,14 @@
 import Coffee from "./coffee"
 
 function App() {
+  const userName = "Avik Mukherjee"
 
-  return ( // We can return only one item or tag 
+  return ( // We can return only one item or tag
+    // Way to inject variable inside jsx {variable} 
     <>
       <h1>This is the h1 heading tag</h1>
       <Coffee />
+      <h2>Name: {userName}</h2> 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ea suscipit fugit architecto! Laudantium ipsam soluta ad id accusamus numquam libero expedita nihil. Iste perferendis ducimus error aliquid reprehenderit aspernatur, repellendus quas placeat aperiam.</p>
     </> 
     /* so using div allows us to return multiple things..which is not a good practice for complex ui
